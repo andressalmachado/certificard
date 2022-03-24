@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+	background-image: url("https://www.teahub.io/photos/full/61-617606_dark-purple-background-wallpaper-download-wallpapers.jpg");
+	font-family: "Roboto", sans-serif;
+	color: #10070f;
+}
+
+.container {
+	background: #fafafa;
+	border-radius: 20px;
+	box-shadow: 6px 6px 6px #200e2f;
+	margin: 50px;
+	padding: 64px;
+}
+
+.cabecalho {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info {
+	display: flex;
+}
+.info img {
+	max-height: 160px;
+	border-radius: 460px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.descricao {
+	margin: 10px;
+}
+
+.descricao h1 {
+	font-weight: 700;
+	font-size: 36px;
+}
+.descricao h3 {
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.tema button {
+	align-self: flex-end;
+	font-weight: 400;
+	font-size: 24px;
+	padding: 8px 16px;
+	color: #10000d;
+	background: #faf9fa;
+	border: 2px solid #10000d;
+	box-sizing: border-box;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+.projetos {
+	background: linear-gradient(230.65deg, #b084a9 27.49%, #d1c0cf 83.19%);
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	margin-top: 32px;
+	padding: 0 64px 0 0;
+	box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+.projetos-titulo {
+	list-style: none;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 56px;
+}
+
+.projetos-titulo li {
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 42px;
+}
+
+.projetos-titulo li a {
+	color: #10070f;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.dark {
+}
+
+.dark .container {
+	background: #353238;
+	color: #dbdadb;
+}
+.dark .projetos {
+	color: #10070f;
+	background: linear-gradient(230.65deg, #b084a9 27.49%, #6f6a72 83.19%);
+}
+
+.dark .tema button {
+	background: #1a1120;
+	color: #fff;
+	border-color: #6f6a72;
+}
