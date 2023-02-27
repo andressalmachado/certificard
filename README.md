@@ -1,4 +1,4 @@
-<a href = "#"><img src="https://user-images.githubusercontent.com/31052821/221612028-e9b43cac-3ae6-4f30-9f41-0c1f88883829.png"></a>
+
 
 ## 👩‍💻Certificard Alura
 
